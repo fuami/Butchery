@@ -1,0 +1,26 @@
+﻿{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": [
+      "iron"
+    ]
+  },
+  "pattern": [
+    [
+      "________###_____",
+      "_______##_##____",
+      "______##___##___",
+      "_____##_____##__",
+      "######_______##_",
+      "____________##__",
+      "___________##___"
+    ]
+  ],
+  "name": "ironhook",
+  "output": {
+    "type": "block",
+    "code": "ironhook-north"
+  }
+}

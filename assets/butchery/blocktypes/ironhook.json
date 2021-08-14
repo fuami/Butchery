@@ -1,0 +1,163 @@
+﻿{
+  "code": "ironhook",
+  "class": "BlockHook",
+  "behaviors": [
+    {
+      "name": "HorizontalOrientable",
+      "properties": {
+        "dropBlockFace": "east",
+        "drop": {
+          "type": "block",
+          "code": "ironhook-north"
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    { "loadFromProperties": "abstract/horizontalorientation" }
+  ],
+  "creativeinventory": {
+    "general": [ "ironhook-north" ],
+    "decorative": [ "ironhook-north" ]
+  },
+  "shapebytype": {
+    "*-north": {
+      "base": "ironhook",
+      "rotateY": 90
+    },
+    "*-east": {
+      "base": "ironhook",
+      "rotateY": 0
+    },
+    "*-south": {
+      "base": "ironhook",
+      "rotateY": 270
+    },
+    "*-west": {
+      "base": "ironhook",
+      "rotateY": 180
+    }
+  },
+  "selectionBoxByType": {
+    "*-north": {
+      "x1": 0.4,
+      "y1": 0.0625,
+      "z1": 0.1875,
+      "x2": 0.6,
+      "y2": 1,
+      "z2": 0.6875
+    },
+    "*-west": {
+      "x1": 0.1875,
+      "y1": 0.0625,
+      "z1": 0.4,
+      "x2": 0.6875,
+      "y2": 1,
+      "z2": 0.6
+    },
+    "*-east": {
+      "x1": 0.3125,
+      "y1": 0.0625,
+      "z1": 0.4,
+      "x2": 0.8125,
+      "y2": 1,
+      "z2": 0.6
+    },
+    "*-south": {
+      "x1": 0.4,
+      "y1": 0.0625,
+      "z1": 0.3125,
+      "x2": 0.6,
+      "y2": 1,
+      "z2": 0.8125
+    }
+  },
+  "collisionbox": {
+    "x1": 0.4,
+    "y1": 0.0625,
+    "z1": 0.1875,
+    "x2": 0.6,
+    "y2": 1,
+    "z2": 0.6875
+  },
+  "texturesByType": {
+    "*": {
+      "material": { "base": "game:block/metal/anvil/iron" }
+    }
+  },
+  "blockmaterial": "Metal",
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "materialDensity": 600,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 4,
+      "z": 0
+    },
+    "scale": 2.14
+  },
+  "fpHandTransform": {
+    "rotation": {
+      "x": -19,
+      "y": -20,
+      "z": 0
+    },
+    "scale": 2.05
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0.2,
+      "y": 0.1,
+      "z": -0.65
+    },
+    "rotation": {
+      "x": -62,
+      "y": -180,
+      "z": 91
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.76
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.081,
+      "z": 0.5
+    },
+    "rotation": {
+      "x": 1,
+      "y": 0,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.69
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.081,
+      "z": 0
+    },
+    "rotation": {
+      "x": 1,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 3.91
+  }
+}

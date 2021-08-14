@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/client/behaviors/5",
+    "value": {
+      "code": "butchery:corpseable",
+      "drop": {
+        "type": "item",
+        "code": "butchery:wolf-male-corpse"
+      }
+    },
+    "file": "entities/land/wolf-male.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6",
+    "value": {
+      "code": "butchery:corpseable",
+      "drop": {
+        "type": "item",
+        "code": "butchery:wolf-male-corpse"
+      }
+    },
+    "file": "entities/land/wolf-male.json"
+  }
+]

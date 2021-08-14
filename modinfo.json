@@ -1,0 +1,16 @@
+{
+  "type": "code",
+  "Name": "Butchery",
+  "Website": "https://github.com/fuami/Butchery",
+  "ModID": "butchery",
+  "Authors": [
+    "Fuami"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "description": "Butchery!",
+  "version": "0.1.0",
+  "Dependencies": {}
+}

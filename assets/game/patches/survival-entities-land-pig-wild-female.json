@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/client/behaviors/6",
+    "value": {
+      "code": "butchery:corpseable",
+      "drop": {
+        "type": "item",
+        "code": "butchery:pig-wild-female-corpse"
+      }
+    },
+    "file": "entities/land/pig-wild-female.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6",
+    "value": {
+      "code": "butchery:corpseable",
+      "drop": {
+        "type": "item",
+        "code": "butchery:pig-wild-female-corpse"
+      }
+    },
+    "file": "entities/land/pig-wild-female.json"
+  }
+]
